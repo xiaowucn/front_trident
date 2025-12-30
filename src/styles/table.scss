@@ -1,0 +1,17 @@
+::v-deep .el-table {
+  border: 1px solid #e5e9f2;
+  border-bottom: none;
+  .el-table__header-wrapper th {
+    background-color: #eef1f6;
+    padding: 10px 0;
+    .cell {
+      font-size: 14px;
+      font-weight: 500;
+      color: #6b6c6f;
+    }
+  }
+}
+::v-deep .el-pagination {
+  margin-top: 20px;
+  text-align: center;
+}

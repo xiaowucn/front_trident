@@ -1,0 +1,58 @@
+@import './element-variables.scss';
+
+.cmfchina {
+  .user-management-wrapper,
+  .role-manage-container {
+    .action-wrapper {
+      .el-button {
+        font-weight: bold;
+        i {
+          font-weight: bold;
+        }
+      }
+    }
+    .user-option-wrapper {
+      justify-content: start;
+      .user-option {
+        justify-content: space-between;
+        padding: 0 10px;
+      }
+    }
+  }
+
+  .user-dialog,
+  .role-dialog {
+    .el-dialog__header {
+      .el-dialog__title {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .el-table {
+    .el-table__header-wrapper {
+      th {
+        background-color: #fcfcfc;
+        .cell {
+          font-weight: bold;
+          color: #606266;
+        }
+      }
+    }
+  }
+}
+
+.el-popover {
+  .el-tree {
+    .el-checkbox {
+      display: block;
+      margin-bottom: 3px;
+      font-weight: normal;
+      &.is-checked {
+        + .el-tree-node__label {
+          color: $--color-primary;
+        }
+      }
+    }
+  }
+}

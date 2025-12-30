@@ -1,0 +1,32 @@
+.pagination-content {
+  text-align: center;
+}
+.user-status {
+  width: 60px;
+  padding-left: 20px;
+  position: relative;
+  margin: 0 auto;
+  &.normal,
+  &.delete,
+  &.abnormal {
+    &::before {
+      content: '';
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 8px;
+      margin-top: -4px;
+    }
+  }
+  &.normal::before {
+    background-color: #409eff;
+  }
+  &.delete::before {
+    background-color: #909399;
+  }
+  &.abnormal::before {
+    background-color: #f56c6c;
+  }
+}

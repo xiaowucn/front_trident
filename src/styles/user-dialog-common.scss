@@ -1,0 +1,18 @@
+.user-dialog {
+  ::v-deep.el-dialog__header {
+    padding: 15px;
+    border-bottom: 1px solid #eaedf3;
+    span {
+      font-size: 20px;
+      font-weight: 500;
+      color: #3e3f42;
+    }
+  }
+  ::v-deep .el-dialog__footer {
+    padding: 15px;
+    border-top: 1px solid #eaedf3;
+    .dialog-footer {
+      text-align: center;
+    }
+  }
+}

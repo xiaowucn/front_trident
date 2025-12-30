@@ -1,0 +1,18 @@
+/* 改变主题色变量 */
+$--color-primary: #885eff;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: 'element-ui/lib/theme-chalk/fonts';
+
+/* 注意：Element UI 主题系统需要 @import 来访问全局变量，暂时保持 @import */
+/* 当 Element UI 迁移到新的 Sass 模块系统后，可以改为 @use */
+@import 'element-ui/packages/theme-chalk/src/index';
+
+.view-layout-wrapper {
+  .file-list-wrapper {
+    text-align: center;
+    .el-dialog {
+      width: 600px;
+    }
+  }
+}

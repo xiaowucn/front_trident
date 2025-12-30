@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'SourceHanSansCN-Regular';
+  src: url('./SourceHanSansCN-Regular.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Times New Roman';
+  src: url('./Times New Roman.ttf');
+  font-weight: normal;
+  font-style: normal;
+}

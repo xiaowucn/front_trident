@@ -1,0 +1,23 @@
+.instruction-view {
+  padding: 30px 50px;
+  .view-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    p {
+      font-size: 20px;
+      color: #606266;
+      margin: 0;
+      &::before {
+        content: '';
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #1665d8;
+        margin: 10px 10px 3px 0;
+      }
+    }
+  }
+}
